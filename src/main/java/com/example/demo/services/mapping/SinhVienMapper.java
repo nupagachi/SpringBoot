@@ -7,11 +7,13 @@ package com.example.demo.services.mapping;
 
 import com.example.demo.entity.Sinhvien;
 import com.example.demo.services.SinhVienDTO;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author pc
  */
+@Service
 public class SinhVienMapper implements IMapping<SinhVienDTO, Sinhvien>{
         DateTimeConvert convert=new DateTimeConvert();
     @Override
